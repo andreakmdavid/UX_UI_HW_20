@@ -1,0 +1,210 @@
+/* Typography CSS */
+
+body {
+  font-family: park-lane, serif;
+
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0px 0px;
+  color: #000000;
+  font-family: park-lane, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+h3 {
+  color: black;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+p {
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #636364;
+}
+
+
+/* Navigation CSS */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: #E4E6DF;  
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    }
+  #navigation {
+      display: flex;
+      width: 50%;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    #navigation p {
+      cursor: crosshair;
+      text-decoration: none;
+      align-items: center;
+      justify-content: space-evenly;
+
+    .button-wrapper {
+        display: block;
+        text-align: center;
+      }
+
+    .button {
+        border: 2px;
+        border-radius: 3px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        display: inline-block;
+        font-size: 1em;
+        padding: 1em 2em;
+        width: auto;
+      }
+      .cta-button {
+        background-color: #000;
+        color: #fff !important;
+      }
+      
+      .cta-button:hover {
+        background-color: #777;
+      }
+    .icons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 25%;
+    }
+    .icons img {
+      margin: 15px;
+      cursor: crosshair;
+    }
+    .highlight {
+      color:  #ffdb58;
+      font-weight: 700;
+    }
+
+    
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #E4E6DF;
+      }
+      .inline-block {
+        padding: 15px;
+        display: inline-block;
+        background-color: #E4E6DF;
+    
+      }
+    /* Body CSS */
+
+    #section {
+        display: flex
+        background-color: e4e6df;  
+        color: #000000;
+
+    #intro {
+      height: 300px;
+      background-color: #E4E6DF;  
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      
+    /* Jumbotron  */
+
+.jumbotron {
+  background-color: #e4e6df
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+    #photo {
+      display: flex:
+    }
+
+/* Category Grid CSS */
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #000000;
+  color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+
+
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: crosshair;
+  display: grid;
+  align-content: end;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 20px;
+  border-bottom: 5px solid #FF6200;
+}
+
+        
+footer {
+        
+    }
+/* Footer */
+.emailContain {
+  background-color: #ede6fe
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+/* Footer form */
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #000000;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
